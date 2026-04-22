@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000000; /* Latar belakang hitam penuh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.gambar-atas {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%; /* Membuat gambar sedikit melingkar jika rasio kotaknya sama */
+    border: 3px solid #8a0303; /* Bingkai merah darah */
+    box-shadow: 0 0 20px rgba(138, 3, 3, 0.6); /* Efek cahaya merah di sekitar gambar */
+}
+
+.form-box {
+    background-color: #121212;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #8a0303;
+    width: 100%;
+    box-shadow: 0 4px 15px rgba(138, 3, 3, 0.3);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8a0303;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    background-color: #000000;
+    border: 1px solid #333;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #8a0303;
+    box-shadow: 0 0 8px rgba(138, 3, 3, 0.5);
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 48%;
+    transition: 0.3s;
+}
+
+.merah {
+    background-color: #8a0303;
+    color: #ffffff;
+}
+
+.merah:hover {
+    background-color: #5c0202; /* Merah yang lebih gelap saat kursor diarahkan */
+}
+
+.hitam {
+    background-color: #000000;
+    color: #8a0303;
+    border: 1px solid #8a0303;
+}
+
+.hitam:hover {
+    background-color: #8a0303;
+    color: #ffffff;
+}
