@@ -1,1 +1,1 @@
-![Screenshot Dashboard](webjs/dashboard.png)
+![Screenshot Dashboard](WEBJS/dashboard.png)
