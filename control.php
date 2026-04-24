@@ -37,6 +37,29 @@ echo "Apakah $x > $y? Jawabannya: " . ($isGreater ? "Benar (True)" : "Salah (Fal
 echo "Apakah $x == $y? Jawabannya: " . ($isEqual ? "Benar (True)" : "Salah (False)") . "<br>";
 
 ?>
+<?php
+// ... kode sebelumnya ...
 
+// 5. Struktur Kendali: Switch Case
+$hari = "Senin";
+
+echo "<h3>Switch Case (Jadwal Harian)</h3>";
+
+switch ($hari) {
+    case "Senin":
+        echo "Hari ini adalah $hari: Waktunya mulai bekerja!";
+        break;
+    case "Jumat":
+        echo "Hari ini adalah $hari: Siap-siap akhir pekan.";
+        break;
+    case "Minggu":
+        echo "Hari ini adalah $hari: Waktunya istirahat.";
+        break;
+    default:
+        echo "Hari ini adalah $hari: Jalani hari seperti biasa.";
+        break;
+}
+
+?>
 </body>
 </html>
